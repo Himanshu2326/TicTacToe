@@ -1,0 +1,30 @@
+.h1 {
+    font-size: 1.7rem;
+}
+
+.info {
+    font-size: 1.4rem;
+}
+
+.btn {
+    width: 80px;
+    font-size: 17px;
+}
+
+@media (max-width:475px) {
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .Left-Container {
+        display: grid;
+       scale: 1.5;
+        margin-bottom: 5%;
+    }
+
+    .Right-Container {
+        margin-top: 5rem;
+    }
+
+}
